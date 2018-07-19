@@ -4,7 +4,7 @@ library(stats)
 library(gmodels)
 
 #install.packages("gmodels")
-
+setwd("C:\\Users\\biancoscudellas\\Documents\\GitHub\\SamplesQA\\")
 samples<-read.csv("./data/samplesbyorgan_22-03-2018.csv")
 projout<-read.csv("./data/proj_out_22-03-2018.csv")
 
